@@ -22,7 +22,10 @@ public class ShowActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.show_activity);
         initView();
-
+        ImageDetails imageDetails = BuildImageManager.getImageDetails();
+        head.setText(imageDetails.getName()+"的进出校门申请");
+        div1.setText(imageDetails.getName()+"的进出校门申请");
+        name.setText();
     }
 
     private void initView() {
