@@ -15,6 +15,7 @@
         >
 
         <TextView
+            android:id="@+id/head"
             android:textColor="#FF070000"
             android:gravity="center"
             android:layout_width="match_parent"
@@ -22,6 +23,7 @@
             android:text="XXX的进出校门申请" />
     </Toolbar>
     <TextView
+
         android:id="@+id/div1"
         android:layout_below="@id/toolbar"
         android:textColor="#FF070000"
@@ -87,7 +89,7 @@
 
         />
         <TextView
-
+            android:id="@+id/name"
             android:layout_marginStart="3dp"
             android:textColor="#FF0A0000"
             android:layout_width="wrap_content"
@@ -134,7 +136,7 @@
             android:layout_height="wrap_content"
             android:text="审批编号"/>
             <TextView
-
+                android:id="@+id/binahao"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="15dp"
                 android:layout_width="wrap_content"
@@ -152,6 +154,7 @@
             android:layout_height="wrap_content"
             android:text="进出校门原因"/>
         <TextView
+           android:text="事假"
             android:layout_marginTop="15dp"
             android:layout_marginStart="8dp"
             android:layout_width="wrap_content"
@@ -169,6 +172,7 @@
             android:layout_height="wrap_content"
             android:text="情况说明"/>
         <TextView
+            android:id="@+id/reason"
             android:layout_marginTop="15dp"
             android:layout_marginStart="20dp"
             android:layout_width="wrap_content"
@@ -203,6 +207,7 @@
             android:layout_height="wrap_content"
             android:text="出校日期"/>
         <TextView
+            android:id="@+id/outtime"
             android:layout_marginTop="15dp"
             android:layout_marginStart="20dp"
             android:layout_width="wrap_content"
@@ -220,6 +225,7 @@
             android:layout_height="wrap_content"
             android:text="返校日期"/>
         <TextView
+            android:id="@+id/blacktime"
             android:layout_marginTop="15dp"
             android:layout_marginStart="20dp"
             android:layout_width="wrap_content"

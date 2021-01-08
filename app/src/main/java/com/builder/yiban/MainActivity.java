@@ -146,7 +146,7 @@ public class MainActivity extends AppCompatActivity {
                         reason_edit.getText().toString(), date_edit.getText().toString());
 
                 saveData(imageDetails);
-                BuildImageManager.build(MainActivity.this, imageDetails);
+
                 Intent it = new Intent(MainActivity.this, ShowActivity.class);
 
                 startActivity(it);
