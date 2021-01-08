@@ -1,21 +1,13 @@
 package com.builder.yiban;
 
 import android.content.Context;
-import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.graphics.BitmapShader;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
-import android.os.Environment;
-import android.util.Log;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
 
 public class BuildImageManager {
 
