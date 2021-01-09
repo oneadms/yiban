@@ -144,13 +144,10 @@ public class MainActivity extends AppCompatActivity {
                 ImageDetails imageDetails = new ImageDetails(name_edit.getText().toString(),
                         studentID_edit.getText().toString(),
                         reason_edit.getText().toString(), date_edit.getText().toString());
-
                 saveData(imageDetails);
-
+                BuildImageManager.save(imageDetails);
                 Intent it = new Intent(MainActivity.this, ShowActivity.class);
-
                 startActivity(it);
-
             }
         });
 

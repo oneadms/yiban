@@ -9,7 +9,7 @@ public class BuildImageManager {
         return imageDetails;
     }
 
-    public static void build(ImageDetails imageDetails) {
+    public static void save(ImageDetails imageDetails) {
         BuildImageManager.imageDetails = imageDetails;
     }
 }
